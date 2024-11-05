@@ -1,0 +1,106 @@
+.carousel-unique .carousel {
+    margin: 0px 0;
+    margin-bottom: 30px;
+    background: #e2eaef;
+    position: relative;
+    width: 100%; 
+}
+.carousel-unique .carousel:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 60px;
+    bottom: 0px;
+    left: 10px;
+    right: 10px;
+    border-radius: 100px / 20px;
+}
+.carousel-unique .carousel .item {
+    text-align: center;
+    overflow: hidden;
+    height: 320px;
+}
+.carousel-unique .carousel .item img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.carousel-unique .carousel .carousel-control {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin: auto 0;
+    opacity: 0.8;
+}
+.carousel-unique .carousel .carousel-control:hover {
+    opacity: 0.9;
+}
+.carousel-unique .carousel .carousel-control i {
+    font-size: 41px;
+}
+.carousel-unique .carousel-action {
+    padding: 10px 0 30px;
+}
+.carousel-unique .carousel-action .btn {
+    min-height: 34px;
+    border-radius: 0;
+    margin: 3px;
+    min-width: 150px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-unique .carousel-action .btn-primary {
+    border-color: #000;
+    background: none;
+    color: #000;
+}
+.carousel-unique .carousel-action .btn-primary:hover {
+    background: #000;
+    color: #fff;
+}
+.carousel-unique .carousel-action .btn-success {
+    background: #8fc93c;
+    border: none;
+}
+.carousel-unique .carousel-action .btn-success:hover {
+    background: #87bd35;
+}
+.carousel-unique .carousel-indicators li, 
+.carousel-unique .carousel-indicators li.active {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin: 1px 6px;
+}
+.carousel-unique .carousel-indicators li {
+    background: transparent;
+    border: 1px solid #fff;
+}
+.carousel-unique .carousel-indicators li.active {
+    background: #8fc93c;
+    border-color: #8fc93c;
+}
+.carousel-unique .carousel .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #7ac400;	
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carousel-unique .carousel .carousel-control:hover {
+	background: #78bf00;
+	opacity: 1;
+}
+.carousel-unique .carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}

@@ -1,0 +1,136 @@
+body {
+    background: #eeeeee;
+}
+.form-inline {
+    display: inline-block;
+}
+.navbar {		
+    background: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.nav img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+.navbar .navbar-brand {
+    color: #555;
+    padding-left: 0;
+    padding-right: 50px;
+    font-family: 'Merienda One', sans-serif;
+}
+.navbar .navbar-brand i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.search-box {
+    position: relative;
+    max-width: 150px; /* Giới hạn chiều rộng của hộp tìm kiếm */
+}
+
+.search-box input {
+    box-shadow: none;
+    padding-right: 30px; /* Giảm khoảng cách bên phải */
+    border-radius: 2px !important; /* Giảm độ bo góc */
+    height: 28px; /* Giảm chiều cao của ô input */
+    font-size: 12px; /* Giảm cỡ chữ */
+}
+
+.search-box .input-group-addon {
+    min-width: 28px; /* Thu nhỏ kích thước của addon */
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    padding: 5px; /* Giảm padding */
+    height: 100%;
+}
+
+.search-box i {
+    color: #a0a5b1;
+    font-size: 16px; /* Giảm cỡ chữ của biểu tượng */
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -29px;
+    margin-top: -40px;
+    margin-bottom: 27px;
+}
+.navbar ul li i {
+    font-size: 15px; /* Giảm kích thước font của icon */
+}
+.navbar .dropdown-menu i {
+    font-size: 14px; /* Giảm kích thước font trong menu dropdown */
+    min-width: 18px; /* Thu nhỏ chiều rộng tối thiểu */
+}
+.navbar .dropdown.open > a {
+    background: none !important;
+}
+.navbar .dropdown-menu {
+    border-radius: 2px;
+    border-color: #e5e5e5;
+    box-shadow: 0 1px 5px rgba(0,0,0,.05); /* Giảm độ đổ bóng */
+}
+.navbar .dropdown-menu li a {
+    color: #777;
+    padding: 6px 15px; /* Giảm padding */
+    line-height: 1.4;
+}
+.navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+    color: #333;
+}
+.navbar .dropdown-menu .material-icons {
+    font-size: 18px; /* Giảm kích thước icon */
+    line-height: 14px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+.navbar .badge {
+    background: #f44336;
+    font-size: 10px; /* Giảm cỡ chữ của badge */
+    border-radius: 12px;
+    position: absolute;
+    min-width: 8px;
+    padding: 3px 5px 0;
+    min-height: 16px;
+    top: 4px; /* Điều chỉnh vị trí */
+}
+.navbar ul.nav li a.notifications, .navbar ul.nav li a.messages {
+    position: relative;
+    margin-right: -8px; /* Giảm khoảng cách giữa các item */
+}
+.navbar ul.nav li a.messages {
+    margin-right: 15px;
+}
+.navbar a.notifications .badge {
+    margin-left: -6px;
+}
+.navbar a.messages .badge {
+    margin-left: -3px;
+}
+.navbar .active a, .navbar .active a:hover, .navbar .active a:focus {
+    background: transparent !important;
+}
+@media (min-width: 1200px){
+    .form-inline .input-group {
+        width: 250px; /* Thu hẹp chiều rộng */
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1199px){
+    .form-inline {
+        display: block;
+        margin-bottom: 8px; /* Giảm khoảng cách phía dưới */
+    }
+    .input-group {
+        width: 100%;
+    }
+}
