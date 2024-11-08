@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+body {
+    font-family: 'Numans', sans-serif;
+}
+
+/* Header và Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    
+}
+
+.my-logo img {
+    max-width: 120px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+/* Căn chỉnh riêng từng liên kết */
+.navbar-nav > li:first-child {
+    margin-left: -600px; /* Trang chủ */
+}
+.navbar-nav > li:nth-child(2) {
+    margin-left: -500px; /* Đăng nhập */
+}
+
+
+.navbar-nav > li > a {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-nav > .active > a {
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    float: right;
+}
+
+.form-control {
+    width: auto;
+    display: inline-block;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Carousel */
+.carousel-inner > .item > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-indicators li {
+    background-color: #333;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    color: #333;
+    font-size: 24px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: white;
+}
