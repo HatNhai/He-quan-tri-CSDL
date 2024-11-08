@@ -1,2 +1,1 @@
-B
-ài tập lớn website quản lý cửa hàng cơ bản.
+Bài tập lớn website quản lý cửa hàng cơ bản.
